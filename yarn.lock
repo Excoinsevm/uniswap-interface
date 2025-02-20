@@ -1124,11 +1124,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bscswap/contracts@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@bscswap/contracts/-/contracts-1.0.2.tgz#c6d639a43018bec808be02004c6a103b923fd604"
-  integrity sha512-/tJ/GviHfCqzGAkO2W2YkDkWNgcySueHfjlqhbXAA1EmOAhIqHr0IbT7PJpE2/dkegEnuv3moCCl2hndK8dHRA==
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1883,12 +1878,17 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@piggycoin/sdk@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@piggycoin/sdk/-/sdk-0.1.0.tgz#0d2cf5412f3447bd64736a1b4a7f12317373c0fe"
-  integrity sha512-gNeb7EAfywgaeQuaamo1mkidIErKIvgxMWreHRKRvv5X+d8RU7YGqbCtwq5kvWulN58S6XonYaGovuQzu+oMNg==
+"@opus-fi/core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@opus-fi/core/-/core-1.0.2.tgz#2415fe5ee0655ce4ca00aaf924420a7b0423b9f0"
+  integrity sha512-SmNEdxQAtrZoE7ZLCvdaVuPSHm261qhF60ln6mwUxSs9mRjb9Pm4fsPXSrVm2ghtlnHIz9EwzAnQ44AR8mLPlQ==
+
+"@piggycoin/sdk@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@piggycoin/sdk/-/sdk-0.1.12.tgz#e400f29b5adafc059f4fcb95dad72c0b129d4be2"
+  integrity sha512-mik58M8AFb760ZdwjiCfag9JqQ/sa497LyqU4VLOC+sy4g8vJf1n4kkheXd1EH/ZGwttgj+i2xUKFqVdXz9JOQ==
   dependencies:
-    "@bscswap/contracts" "1.0.2"
+    "@opus-fi/core" "^1.0.2"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"

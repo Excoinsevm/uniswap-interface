@@ -18,7 +18,7 @@ import Loader from '../Loader'
 import { isDefaultToken } from '../../utils'
 
 function currencyKey(currency: Currency): string {
-  return currency instanceof Token ? currency.address : currency === ETHER ? 'ETHER' : ''
+  return currency instanceof Token ? currency.address : currency === ETHER ? 'BNB' : ''
 }
 
 export default function CurrencyList({
