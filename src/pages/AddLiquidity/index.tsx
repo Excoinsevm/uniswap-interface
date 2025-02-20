@@ -202,7 +202,7 @@ export default function AddLiquidity({
       )
       .catch(error => {
         setAttemptingTxn(false)
-        // we only care if the error is something _other_ than the user rejected the tx
+        // we only care if the error is something _other_ than the user rejected the tx.
         if (error?.code !== 4001) {
           console.error(error)
         }
@@ -288,7 +288,7 @@ export default function AddLiquidity({
           history.push(`/add/${newCurrencyIdB}`)
         }
       } else {
-        history.push(`/add/${currencyIdA ? currencyIdA : 'ETH'}/${newCurrencyIdB}`)
+        history.push(`/add/${currencyIdA ? currencyIdA : 'BNB'}/${newCurrencyIdB}`)
       }
     },
     [currencyIdA, history, currencyIdB]

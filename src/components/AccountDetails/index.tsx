@@ -15,8 +15,6 @@ import { getEtherscanLink } from '../../utils'
 import { injected, walletconnect, walletlink } from '../../connectors'
 import CoinbaseWalletIcon from '../../assets/images/coinbaseWalletIcon.svg'
 import WalletConnectIcon from '../../assets/images/walletConnectIcon.svg'
-import FortmaticIcon from '../../assets/images/fortmaticIcon.png'
-import PortisIcon from '../../assets/images/portisIcon.png'
 import Identicon from '../Identicon'
 import { ButtonSecondary } from '../Button'
 import { ExternalLink as LinkIcon } from 'react-feather'
@@ -194,10 +192,6 @@ const WalletAction = styled(ButtonSecondary)`
     cursor: pointer;
     text-decoration: underline;
   }
-`
-
-const MainWalletAction = styled(WalletAction)`
-  color: ${({ theme }) => theme.primary1};
 `
 
 function renderTransactions(transactions) {
