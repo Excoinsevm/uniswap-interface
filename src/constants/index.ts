@@ -3,7 +3,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@piggycoin/sdk'
 
 import { injected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xee86aB015B7d6CFb9d6029AeAC4e8d646A1C45eD'
+export const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
 
 // a list of tokens by chain
 type ChainTokenList = {

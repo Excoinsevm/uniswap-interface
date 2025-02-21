@@ -1883,10 +1883,10 @@
   resolved "https://registry.yarnpkg.com/@opus-fi/core/-/core-1.0.2.tgz#2415fe5ee0655ce4ca00aaf924420a7b0423b9f0"
   integrity sha512-SmNEdxQAtrZoE7ZLCvdaVuPSHm261qhF60ln6mwUxSs9mRjb9Pm4fsPXSrVm2ghtlnHIz9EwzAnQ44AR8mLPlQ==
 
-"@piggycoin/sdk@0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@piggycoin/sdk/-/sdk-0.1.13.tgz#6cdee61bf0a47dc581018e67810735c1b8083556"
-  integrity sha512-Rr/xIRl5yfMqAH5ZmVBWzhU0+unbxgTDJBgNIKXH0C2busAkD5rZizuKCX1D/oYtCHpCTlvNbUyMCgot8GRLuQ==
+"@piggycoin/sdk@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@piggycoin/sdk/-/sdk-0.1.14.tgz#7568ccb88886a97e145429d475c6467636bed26c"
+  integrity sha512-I0M0mZE0ExQ4Q4dZq+zWB/cKCZ+n+N4QBzXxcHjC6cwCN618F4ue7VzeE3h1SwOiVWjorVXZCRywQvKc0ASw1A==
   dependencies:
     "@opus-fi/core" "^1.0.2"
     big.js "^5.2.2"
